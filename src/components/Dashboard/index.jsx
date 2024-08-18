@@ -12,7 +12,7 @@ const Dashboard = () => {
   useEffect(() => {
     let amount = 0
     subscriptionsData.forEach(es=>{
-      if (es.product_name == 'Amazon Prime') {
+      if (es.product_name == 'Amazon Prime 365/yr') {
         amount += es.no_of_days * es.no_of_subscriptions
       }
       else{
