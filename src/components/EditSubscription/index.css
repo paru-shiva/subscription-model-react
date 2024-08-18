@@ -1,0 +1,64 @@
+.addSubscriptionComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.addSubscriptionHeading {
+  align-self: flex-start;
+  margin: 0px;
+}
+
+.subscriptionAdder {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.formLabel {
+  margin-top: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.datePicker {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 34px;
+  padding: 0px 8px;
+}
+
+.datesPickersDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.endDatePickerDiv {
+  width: 100%;
+}
+
+.addBtn {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.userMessage{
+  margin: 0px;
+  font-size: 10px;
+  color: red;
+  margin: 6px;
+}

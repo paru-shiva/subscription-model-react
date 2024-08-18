@@ -1,0 +1,21 @@
+.headerComponent {
+  background-color: black;
+  color: white;
+  height: 70px;
+  box-sizing: border-box;
+  padding: 0px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoImage {
+  height: 100%;
+  width: 120px;
+}
+
+.admin {
+  height: 100%;
+  width: 25px;
+  margin-right: 20px;
+}
